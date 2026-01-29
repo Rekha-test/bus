@@ -13,6 +13,6 @@
            PERFORM VARYING I FROM 1 BY 1 UNTIL I > N
                MOVE SPACES(1:N-I) TO SPACE
                MOVE STAR(1:(2*I)-1) TO STAR
-               DISPLAY SPACE STAR
+               DISPLAY SPACE STAR SPACE STAR
            END-PERFORM.
            STOP RUN.
